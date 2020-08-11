@@ -57,6 +57,8 @@ node_modules/
 
 # ignore log files and database
 .env
+.env.*
+!.env.example
 *.log
 *.sql
 *.sqlite
